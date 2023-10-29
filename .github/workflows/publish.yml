@@ -2,7 +2,7 @@ name: Publish to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ gmc ]
 
 jobs:
   build:
@@ -17,4 +17,3 @@ jobs:
       - uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
           build_dir: build
-          fqdn: mm2bc.ustc-zzzz.net
